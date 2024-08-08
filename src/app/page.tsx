@@ -1,9 +1,9 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
+import Image from "next/image";
 import Loader from '../components/Loader';
 import Dash from '../components/Dash';
-import Image from "next/image";
+import React, { useEffect, useState } from 'react';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
